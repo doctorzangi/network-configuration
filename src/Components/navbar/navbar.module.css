@@ -1,0 +1,84 @@
+.navBar {
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  width: 100%;
+  height: 12vh;
+  border-bottom: 0.7vh solid black;
+}
+
+.netConfig {
+  font-size: 5vmin;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.netConfig:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.logOut,
+.signOut {
+  text-decoration: none;
+  font-size: 3vmin;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.logOut:hover,
+.signOut:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10vmin;
+  height: 12vmin;
+}
+
+.user img {
+  width: 10vmin;
+  height: 10vmin;
+  border-radius: 50%;
+}
+
+.user div {
+  font-size: 3vmin;
+  margin-left: 2vmin;
+}
+
+.user div:hover {
+  cursor: pointer;
+}
+
+.drop {
+  position: absolute;
+  border: 0.5vmin solid black;
+  border-radius: 0.5vmin;
+  background-color: rgb(20, 20, 20);
+  top: 8vmin;
+  right: 0;
+  display: none;
+}
+
+.log {
+  padding: 2vmin 2vw;
+  border-bottom: 0.5vmin solid black;
+  margin: 0;
+}
+
+.sign {
+  margin: 0;
+  padding: 2vmin 2vw;
+}

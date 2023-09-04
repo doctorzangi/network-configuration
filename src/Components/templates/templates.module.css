@@ -1,0 +1,16 @@
+.template {
+    margin: 20vh 3vw;
+}
+
+.preview {
+    width: 20vw;
+    height: 20vmin;
+    background-color: #FAFBFC;
+}
+
+.button {
+    width: 20vw;
+    height: 6vh;
+    border-radius: 0;
+    margin-top: 2vmin;
+}

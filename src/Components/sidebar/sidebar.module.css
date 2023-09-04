@@ -1,0 +1,85 @@
+.sideBar {
+  left: 0;
+  top: 12.5vh;
+  width: 20vw;
+  height: 165rem;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+  width: 100%;
+  border-bottom: 0.5vmin solid black;
+}
+
+.profile img {
+  width: 8vmin;
+  height: 8vmin;
+  border-radius: 50%;
+}
+
+.profile p {
+  font-size: 2vmin;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.side {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.5vmin solid black;
+}
+
+.upload input {
+  font-size: 2vmin;
+  margin: 0 4vmin;
+}
+
+.upload input:hover {
+  cursor: pointer;
+}
+
+.side a {
+  text-decoration: none;
+  font-size: 2.5vmin;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.side a:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.button {
+    margin-top: 5vh;
+    width: 30vmin;
+    height: 6vmin;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 1vmin;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.templates p{
+    font-size: 5vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2vw;
+}

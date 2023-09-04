@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10vw;
+    margin-top: 20vmin;
+}
+
+textarea {
+    box-shadow: 0px 0px 4px black;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    justify-content: space-around;
+}
+
+button {
+    width: 30vmin;
+    border-radius: 0.5vmin;
+    font-size: 2vmin;
+}
+
+@media screen and (max-width: 425px) {
+   .main {
+        margin-top: 30vmin;
+   }
+}
